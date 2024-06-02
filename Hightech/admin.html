@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        body{
+          background-image: url("images/log.jpg");
+          background-repeat: no-repeat;
+          background-size: 100%;
+        }
+      </style>
+
+        <meta charset="utf-8">
+        <title>Admin login Page</title>
+        <link rel="stylesheet" href="admin.css">
+      
+    </head>
+    
+    <body>
+      <form action="admin_login.php" method="post">
+        <div class="imgcontainer">
+          <img src="images/nil.png" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required>
+      
+          <button type="submit" >login</button>  
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+   
+                    
+              <script>
+                function goBack() {
+                  window.history.back();
+                }
+                
+                </script>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+      <a href="home.html">
+        <button>Back</button>
+      </a>
+      
+    </body>
+</html>
